@@ -1,8 +1,10 @@
-4.1: 4.1.cpp
-	g++ -g -std=c++20 -Wall -Wextra -Wshadow -pedantic 4.1.cpp -o 4.1
+# echo $1
 
-run: 4.1
-	./4.1
+main: $1
+	g++ -g -std=c++20 -Wall -Wextra -Wshadow -pedantic $1 -o main
+
+run : main
+	./main
 
 clean:
-	rm 4.1
+	rm main
