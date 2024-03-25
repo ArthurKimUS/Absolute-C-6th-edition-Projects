@@ -1,15 +1,5 @@
 {
     "version": "0.2.0",
-    "stopAtEntry": true,
-    "logging": {
-                "engineLogging": false, // Show or hide detailed logging from the debug engine
-                "programOutput": true, // Show or hide the output of the program being debugged
-                "exceptions": true, // Show or hide exception information
-                "moduleLoad": false, // Show or hide module loading information
-                "trace": false, // Enables tracing of the Debug Adapter Protocol
-                "traceResponse": false, // Show responses from the Debug Adapter Protocol
-                "warnings": false, // Show or hide warnings from the debug engine
-            },
     "configurations": [
         {
             "name": "C/C++: g++ build and debug active file",
