@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "__assert": "cpp",
+        "__config": "cpp",
+        "__config_site": "cpp"
+    }
+}
