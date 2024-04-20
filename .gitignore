@@ -1,0 +1,14 @@
+Projects/chapter 4/*.o
+Projects/chapter 4/*.out
+Projects/chapter 4/*.obj
+Projects/*/*.o
+Projects/*/*.out
+Projects/*/*.obj
+*.lst
+*.o
+*.eep
+*.lss
+*.map
+*.sym
+*.dSYM/
+*.out
