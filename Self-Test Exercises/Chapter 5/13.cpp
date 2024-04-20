@@ -24,7 +24,7 @@ int main()
 
 void initializeArray (int a[], std::size_t size)
 {
-    for (int i = 0; i < 10; ++i)
+    for (std::size_t i = 0; i < 10; ++i)
         {
             a[i] = i;
         }
@@ -33,7 +33,7 @@ void initializeArray (int a[], std::size_t size)
 
 void displayArray (int a[], std::size_t size)
 {
-    for(int i = 0; i < size; ++i)
+    for(std::size_t i = 0; i < size; ++i)
     {
         std::cout << a[i] << " ";
     }
@@ -42,7 +42,7 @@ void displayArray (int a[], std::size_t size)
 
 void oneMore (int a[], std::size_t size)
 {
-    for(int i = 0; i < size; ++i)
+    for(std::size_t i = 0; i < size; ++i)
     {
         ++a[i];
     }
